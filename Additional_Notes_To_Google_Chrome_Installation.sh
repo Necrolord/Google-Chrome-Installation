@@ -1,0 +1,20 @@
+###############################################################################
+# Author: Necrolord (Eran Braun).
+# Date: 11/10/2018.
+
+**************************************************************************
+This is the ADDITIONAL NOTES file to google chrome installation script.
+**************************************************************************
+
+##1. Source: https://www.if-not-true-then-false.com/2010/install-google-chrome-with-yum-on-fedora-red-hat-rhel/
+
+##2. The script was written on Fedora-28-workstatoin-64bit and as such is adapted to that system. If you are running other systems (older versions of fedora Os or other linux based OS) make sure to adapt the script to your system.
+
+##3. The script installs the stable version of google chrome web browser.
+
+##4. In order to install other versions of google chrome browser you need to replace the last line of code (line 16) with one of the below:
+
+dnf install google-chrome-beta - for the beta version of google chrome.
+
+dnf install google-chrome-unstable - for the unstable version of google chrome.
+################################################################################
